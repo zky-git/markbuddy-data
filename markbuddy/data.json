@@ -1,7 +1,7 @@
 {
   "app": "MarkBuddy",
   "version": 1,
-  "exportedAt": "2026-07-05T09:31:31.497Z",
+  "exportedAt": "2026-07-05T16:38:19.414Z",
   "data": {
     "bookmarks": {
       "https://www.runoob.com/python3/python3-data-type.html": {
@@ -20,7 +20,7 @@
         "active": true,
         "color": "#FFD700",
         "id": "hl_1783240933907_wkkch",
-        "note": "1.chr(x) 将一个数字转换为对应的Ascii字符\n2.ord(x) 将字符串转化为对应的整数值Unicode码点",
+        "note": "",
         "savedAt": 1783240933907,
         "serializedRange": {
           "endOffset": 19,
