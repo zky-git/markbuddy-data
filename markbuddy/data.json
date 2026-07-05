@@ -1,74 +1,34 @@
 {
   "app": "MarkBuddy",
   "version": 1,
-  "exportedAt": "2026-07-04T17:23:18.147Z",
+  "exportedAt": "2026-07-05T09:27:11.885Z",
   "data": {
     "bookmarks": {
       "https://www.runoob.com/python3/python3-data-type.html": {
         "favicon": "https://static.char123.com/images/favicon.ico",
         "highlightIds": [
-          "hl_1782920774765_jnkfa",
-          "hl_1782920878414_emzcb"
+          "hl_1783240933907_wkkch"
         ],
         "savedAt": 1782660761038,
         "tags": [],
         "title": "Python3 基本数据类型 | 菜鸟教程",
         "url": "https://www.runoob.com/python3/python3-data-type.html"
-      },
-      "https://www.yuque.com/u33544716/rni50g": {
-        "favicon": "https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*vMxOQIh4KBMAAAAAAAAAAAAADvuFAQ/original",
-        "highlightIds": [],
-        "savedAt": 1782838751969,
-        "tags": [],
-        "title": "代码学习",
-        "url": "https://www.yuque.com/u33544716/rni50g"
       }
     },
     "highlights": {
-      "hl_1782920774765_jnkfa": {
+      "hl_1783240933907_wkkch": {
         "active": true,
         "color": "#FFD700",
-        "id": "hl_1782920774765_jnkfa",
-        "review": {
-          "enabled": true,
-          "sm2": {
-            "easeFactor": 2.3600000000000003,
-            "interval": 1,
-            "nextReviewAt": 1783007200728,
-            "repetitions": 1
-          }
-        },
-        "savedAt": 1782920774765,
+        "id": "hl_1783240933907_wkkch",
+        "note": "1.chr(x) 将一个数字转换为对应的Ascii字符\n2.ord(x) 将字符串转化为对应的整数值Unicode码点",
+        "savedAt": 1783240933907,
         "serializedRange": {
-          "endOffset": 46,
-          "parentXPath": "/html/body/div[3]/div/div[2]/div/div[3]/div/p[1]",
-          "startOffset": 31,
-          "text": "变量赋值以后该变量才会被创建。"
+          "endOffset": 19,
+          "parentXPath": "/html/body/div[3]/div/div[2]/div/div[3]/div/p[81]",
+          "startOffset": 8,
+          "text": "数据内置的类型进行转换"
         },
-        "text": "变量赋值以后该变量才会被创建。",
-        "url": "https://www.runoob.com/python3/python3-data-type.html"
-      },
-      "hl_1782920878414_emzcb": {
-        "active": true,
-        "color": "#FFD700",
-        "id": "hl_1782920878414_emzcb",
-        "review": {
-          "enabled": true,
-          "sm2": {
-            "easeFactor": 2.5,
-            "interval": 1,
-            "nextReviewAt": 1783092664760,
-            "repetitions": 0
-          }
-        },
-        "savedAt": 1782920878414,
-        "serializedRange": {
-          "endOffset": 37,
-          "parentXPath": "/html/body/div[3]/div/div[2]/div/div[3]/div/p[3]",
-          "startOffset": 13,
-          "text": "等号左边是变量名，右边是存储在变量中的值。例如："
-        },
-        "text": "等号左边是变量名，右边是存储在变量中的值。例如：",
+        "text": "数据内置的类型进行转换",
         "url": "https://www.runoob.com/python3/python3-data-type.html"
       }
     },
