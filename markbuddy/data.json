@@ -1,7 +1,7 @@
 {
   "app": "MarkBuddy",
   "version": 1,
-  "exportedAt": "2026-07-05T17:23:48.912Z",
+  "exportedAt": "2026-07-05T17:29:13.072Z",
   "data": {
     "bookmarks": {
       "https://www.runoob.com/python3/python3-data-type.html": {
@@ -20,7 +20,7 @@
         "active": true,
         "color": "#FFD700",
         "id": "hl_1783240933907_wkkch",
-        "note": "",
+        "note": "不你从v次",
         "savedAt": 1783240933907,
         "serializedRange": {
           "endOffset": 19,
