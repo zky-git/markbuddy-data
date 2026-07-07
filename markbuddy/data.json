@@ -1,35 +1,76 @@
 {
   "app": "MarkBuddy",
   "version": 1,
-  "exportedAt": "2026-07-05T17:39:48.059Z",
+  "exportedAt": "2026-07-07T05:50:08.917Z",
   "data": {
     "bookmarks": {
-      "https://www.runoob.com/python3/python3-data-type.html": {
+      "https://www.runoob.com/python3/python3-basic-operators.html": {
         "favicon": "https://static.char123.com/images/favicon.ico",
         "highlightIds": [
-          "hl_1783240933907_wkkch"
+          "hl_1783319537158_bso2x",
+          "hl_1783320948496_brlnn"
         ],
-        "savedAt": 1782660761038,
+        "savedAt": 1783319537200,
         "tags": [],
-        "title": "Python3 基本数据类型 | 菜鸟教程",
-        "url": "https://www.runoob.com/python3/python3-data-type.html"
+        "title": "Python3 运算符 | 菜鸟教程",
+        "url": "https://www.runoob.com/python3/python3-basic-operators.html"
+      },
+      "https://www.runoob.com/python3/python3-string.html": {
+        "favicon": "https://static.char123.com/images/favicon.ico",
+        "highlightIds": [
+          "hl_1783403013504_ho34i"
+        ],
+        "savedAt": 1783330070728,
+        "tags": [],
+        "title": "Python3 字符串 | 菜鸟教程",
+        "url": "https://www.runoob.com/python3/python3-string.html"
       }
     },
     "highlights": {
-      "hl_1783240933907_wkkch": {
+      "hl_1783319537158_bso2x": {
         "active": true,
         "color": "#FFD700",
-        "id": "hl_1783240933907_wkkch",
-        "note": "",
-        "savedAt": 1783240933907,
+        "id": "hl_1783319537158_bso2x",
+        "note": "&：两位都为1才保留\n|：只要有一位为1就保留\n^：两位不一样才为1",
+        "savedAt": 1783319537158,
         "serializedRange": {
-          "endOffset": 19,
-          "parentXPath": "/html/body/div[3]/div/div[2]/div/div[3]/div/p[81]",
-          "startOffset": 8,
-          "text": "数据内置的类型进行转换"
+          "endOffset": 36,
+          "parentXPath": "/html/body/div[3]/div/div[2]/div/div[3]/div/p[19]",
+          "startOffset": 30,
+          "text": "按位运算法则"
         },
-        "text": "数据内置的类型进行转换",
-        "url": "https://www.runoob.com/python3/python3-data-type.html"
+        "text": "按位运算法则",
+        "url": "https://www.runoob.com/python3/python3-basic-operators.html"
+      },
+      "hl_1783320948496_brlnn": {
+        "active": true,
+        "color": "#FFD700",
+        "id": "hl_1783320948496_brlnn",
+        "note": "1.列表 元祖 集合 字符串 字典成员判断\n2.在字典中判断的是键值\n3.字典方法：dict.keys()、values()、items()",
+        "savedAt": 1783320948496,
+        "serializedRange": {
+          "endOffset": 54,
+          "parentXPath": "/html/body/div[3]/div/div[2]/div/div[3]/div/p[26]",
+          "startOffset": 45,
+          "text": "字符串，列表或元组"
+        },
+        "text": "字符串，列表或元组",
+        "url": "https://www.runoob.com/python3/python3-basic-operators.html"
+      },
+      "hl_1783403013504_ho34i": {
+        "active": true,
+        "color": "#FFD700",
+        "id": "hl_1783403013504_ho34i",
+        "note": "1.Unicode是字符编码体系，给每个字符进行编号\n2.utf-8是把unicode字符存起来的方式，编码成多少字节进行存储 英文1个字节 中文3个字节",
+        "savedAt": 1783403013504,
+        "serializedRange": {
+          "endOffset": 29,
+          "parentXPath": "/html/body/div[3]/div/div[2]/div/div[3]/div/p[33]",
+          "startOffset": 18,
+          "text": "是Unicode字符串"
+        },
+        "text": "是Unicode字符串",
+        "url": "https://www.runoob.com/python3/python3-string.html"
       }
     },
     "tags": [],
