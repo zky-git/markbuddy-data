@@ -1,7 +1,7 @@
 {
   "app": "MarkBuddy",
   "version": 1,
-  "exportedAt": "2026-07-07T05:50:08.917Z",
+  "exportedAt": "2026-07-07T13:00:44.588Z",
   "data": {
     "bookmarks": {
       "https://www.runoob.com/python3/python3-basic-operators.html": {
@@ -15,6 +15,50 @@
         "title": "Python3 运算符 | 菜鸟教程",
         "url": "https://www.runoob.com/python3/python3-basic-operators.html"
       },
+      "https://www.runoob.com/python3/python3-dictionary.html": {
+        "favicon": "https://static.char123.com/images/favicon.ico",
+        "highlightIds": [
+          "hl_1783412428625_w2q04"
+        ],
+        "savedAt": 1783412428639,
+        "tags": [],
+        "title": "Python3 字典 | 菜鸟教程",
+        "url": "https://www.runoob.com/python3/python3-dictionary.html"
+      },
+      "https://www.runoob.com/python3/python3-iterator-generator.html": {
+        "favicon": "https://static.char123.com/images/favicon.ico",
+        "highlightIds": [
+          "hl_1783427578898_8rqit"
+        ],
+        "savedAt": 1783427578933,
+        "tags": [],
+        "title": "Python3 迭代器与生成器 | 菜鸟教程",
+        "url": "https://www.runoob.com/python3/python3-iterator-generator.html"
+      },
+      "https://www.runoob.com/python3/python3-loop.html": {
+        "favicon": "https://static.char123.com/images/favicon.ico",
+        "highlightIds": [
+          "hl_1783416281266_enzdh"
+        ],
+        "savedAt": 1783416281282,
+        "tags": [],
+        "title": "Python3 循环语句 | 菜鸟教程",
+        "url": "https://www.runoob.com/python3/python3-loop.html"
+      },
+      "https://www.runoob.com/python3/python3-set.html": {
+        "favicon": "https://static.char123.com/images/favicon.ico",
+        "highlightIds": [
+          "hl_1783413561021_5bjhs",
+          "hl_1783413626964_scp1q",
+          "hl_1783414753595_f8k3c"
+        ],
+        "savedAt": 1783413561047,
+        "tags": [
+          "py集合"
+        ],
+        "title": "Python3 集合 | 菜鸟教程",
+        "url": "https://www.runoob.com/python3/python3-set.html"
+      },
       "https://www.runoob.com/python3/python3-string.html": {
         "favicon": "https://static.char123.com/images/favicon.ico",
         "highlightIds": [
@@ -24,6 +68,16 @@
         "tags": [],
         "title": "Python3 字符串 | 菜鸟教程",
         "url": "https://www.runoob.com/python3/python3-string.html"
+      },
+      "https://www.runoob.com/python3/python3-with-keyword.html": {
+        "favicon": "https://static.char123.com/images/favicon.ico",
+        "highlightIds": [
+          "hl_1783428559883_cp4a7"
+        ],
+        "savedAt": 1783428559896,
+        "tags": [],
+        "title": "Python with 关键字 | 菜鸟教程",
+        "url": "https://www.runoob.com/python3/python3-with-keyword.html"
       }
     },
     "highlights": {
@@ -61,7 +115,7 @@
         "active": true,
         "color": "#FFD700",
         "id": "hl_1783403013504_ho34i",
-        "note": "1.Unicode是字符编码体系，给每个字符进行编号\n2.utf-8是把unicode字符存起来的方式，编码成多少字节进行存储 英文1个字节 中文3个字节",
+        "note": "1.Unicode是字符编码体系，给每个字符进行编号\n2.utf-8是把unicode字符存起来的方式，编码成多少字节进行存储 英文1个字节 中文3个字节\n3.text = \"hello, world!\"\ntable = str.maketrans(\"\", \"\", \",!\")\nprint(text.translate(table))",
         "savedAt": 1783403013504,
         "serializedRange": {
           "endOffset": 29,
@@ -71,9 +125,114 @@
         },
         "text": "是Unicode字符串",
         "url": "https://www.runoob.com/python3/python3-string.html"
+      },
+      "hl_1783412428625_w2q04": {
+        "active": true,
+        "color": "#FFD700",
+        "id": "hl_1783412428625_w2q04",
+        "note": "1.字典删除单个元素 del dict[key]\n2.列表删除单个元素 del list[2]\n3.元组不能删除单个元素 只能删除整个元素 del tuple",
+        "savedAt": 1783412428626,
+        "serializedRange": {
+          "endOffset": 6,
+          "parentXPath": "/html/body/div[3]/div/div[2]/div/div[3]/div/h2[4]",
+          "startOffset": 0,
+          "text": "删除字典元素"
+        },
+        "text": "删除字典元素",
+        "url": "https://www.runoob.com/python3/python3-dictionary.html"
+      },
+      "hl_1783413561021_5bjhs": {
+        "active": true,
+        "color": "#FFD700",
+        "id": "hl_1783413561021_5bjhs",
+        "note": "集合运算方式\n1. 交集 A & B\n2. 并集 A | B\n3. 差集 A - B\n4. 对称差集 A ^ B   同时只在一个集合里出现",
+        "savedAt": 1783413561022,
+        "serializedRange": {
+          "endOffset": 21,
+          "parentXPath": "/html/body/div[3]/div/div[2]/div/div[3]/div/p[1]",
+          "startOffset": 0,
+          "text": "集合（set）是一个无序的不重复元素序列。"
+        },
+        "text": "集合（set）是一个无序的不重复元素序列。",
+        "url": "https://www.runoob.com/python3/python3-set.html"
+      },
+      "hl_1783413626964_scp1q": {
+        "active": true,
+        "color": "#FFD700",
+        "id": "hl_1783413626964_scp1q",
+        "note": "set() 参数接受一个可迭代对象 比如列表、字符串、元组等",
+        "savedAt": 1783413626965,
+        "serializedRange": {
+          "endOffset": 46,
+          "parentXPath": "/html/body/div[3]/div/div[2]/div/div[3]/div/p[6]",
+          "startOffset": 3,
+          "text": "创建一个空集合必须用 set() 而不是 { }，因为 { } 是用来创建一个空字典。"
+        },
+        "text": "创建一个空集合必须用 set() 而不是 { }，因为 { } 是用来创建一个空字典。",
+        "url": "https://www.runoob.com/python3/python3-set.html"
+      },
+      "hl_1783414753595_f8k3c": {
+        "active": true,
+        "color": "#FFD700",
+        "id": "hl_1783414753595_f8k3c",
+        "note": "1.列表和集合支持推导式\n2.元组不支持推导式 ， 支持从生成器表达式转为元组 如 tuple(x for x in rang(5))",
+        "savedAt": 1783414753595,
+        "serializedRange": {
+          "endOffset": 19,
+          "parentXPath": "/html/body/div[3]/div/div[2]/div/div[3]/div/p[8]",
+          "startOffset": 10,
+          "text": "集合支持集合推导式"
+        },
+        "text": "集合支持集合推导式",
+        "url": "https://www.runoob.com/python3/python3-set.html"
+      },
+      "hl_1783416281266_enzdh": {
+        "active": true,
+        "color": "#FFD700",
+        "id": "hl_1783416281266_enzdh",
+        "note": "for ... else 循环 和 while...else 循环都是循环体结束后执行else，else是循环体的一部分\nfor循环中使用break 则跳出循环 也以为不执行else",
+        "savedAt": 1783416281266,
+        "serializedRange": {
+          "endOffset": 39,
+          "parentXPath": "/html/body/div[3]/div/div[2]/div/div[3]/div/p[35]",
+          "startOffset": 10,
+          "text": "，for...else 语句用于在循环结束后执行一段代码。"
+        },
+        "text": "，for...else 语句用于在循环结束后执行一段代码。",
+        "url": "https://www.runoob.com/python3/python3-loop.html"
+      },
+      "hl_1783427578898_8rqit": {
+        "active": true,
+        "color": "#FFD700",
+        "id": "hl_1783427578898_8rqit",
+        "savedAt": 1783427578903,
+        "serializedRange": {
+          "endOffset": 42,
+          "parentXPath": "/html/body/div[3]/div/div[2]/div/div[3]/div/p[21]",
+          "startOffset": 0,
+          "text": "在 Python 中，使用了 yield 的函数被称为生成器（generator）。\n\nyield 是一个关键字，用于定义生成器函数，生成器函数是一种特殊的函数，可以在迭代过程中逐步产生值，而不是一次性返回所有结果。"
+        },
+        "text": "在 Python 中，使用了 yield 的函数被称为生成器（generator）。\n\nyield 是一个关键字，用于定义生成器函数，生成器函数是一种特殊的函数，可以在迭代过程中逐步产生值，而不是一次性返回所有结果。",
+        "url": "https://www.runoob.com/python3/python3-iterator-generator.html"
+      },
+      "hl_1783428559883_cp4a7": {
+        "active": true,
+        "color": "#FFD700",
+        "id": "hl_1783428559883_cp4a7",
+        "savedAt": 1783428559884,
+        "serializedRange": {
+          "endOffset": 108,
+          "parentXPath": "/html/body/div[3]/div/div[2]/div/div[3]/div/p[2]",
+          "startOffset": 1,
+          "text": "with 是 Python 中的一个关键字，用于上下文管理协议（Context Management Protocol）。它简化了资源管理代码，特别是那些需要明确释放或清理的资源（如文件、网络连接、数据库连接等）。"
+        },
+        "text": "with 是 Python 中的一个关键字，用于上下文管理协议（Context Management Protocol）。它简化了资源管理代码，特别是那些需要明确释放或清理的资源（如文件、网络连接、数据库连接等）。",
+        "url": "https://www.runoob.com/python3/python3-with-keyword.html"
       }
     },
-    "tags": [],
+    "tags": [
+      "py集合"
+    ],
     "settings": {
       "defaultColor": "#FFD700",
       "presetColors": [
