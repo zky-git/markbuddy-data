@@ -1,9 +1,19 @@
 {
   "app": "MarkBuddy",
   "version": 1,
-  "exportedAt": "2026-07-07T13:00:44.588Z",
+  "exportedAt": "2026-07-07T17:08:10.803Z",
   "data": {
     "bookmarks": {
+      "https://www.runoob.com/python3/python3-data-type.html": {
+        "favicon": "https://static.char123.com/images/favicon.ico",
+        "highlightIds": [
+          "hl_1783240933907_wkkch"
+        ],
+        "savedAt": 1782660761038,
+        "tags": [],
+        "title": "Python3 基本数据类型 | 菜鸟教程",
+        "url": "https://www.runoob.com/python3/python3-data-type.html"
+      },
       "https://www.runoob.com/python3/python3-basic-operators.html": {
         "favicon": "https://static.char123.com/images/favicon.ico",
         "highlightIds": [
@@ -81,6 +91,21 @@
       }
     },
     "highlights": {
+      "hl_1783240933907_wkkch": {
+        "active": true,
+        "color": "#FFD700",
+        "id": "hl_1783240933907_wkkch",
+        "note": "",
+        "savedAt": 1783240933907,
+        "serializedRange": {
+          "endOffset": 19,
+          "parentXPath": "/html/body/div[3]/div/div[2]/div/div[3]/div/p[81]",
+          "startOffset": 8,
+          "text": "数据内置的类型进行转换"
+        },
+        "text": "数据内置的类型进行转换",
+        "url": "https://www.runoob.com/python3/python3-data-type.html"
+      },
       "hl_1783319537158_bso2x": {
         "active": true,
         "color": "#FFD700",
@@ -247,7 +272,11 @@
       "themeMode": "light"
     },
     "groupByDomain": true,
-    "sortBy": "domain-asc"
+    "sortBy": "domain-asc",
+    "deletedItems": {
+      "bookmarks": {},
+      "highlights": {}
+    }
   },
   "sync": {
     "schemaVersion": 1,
